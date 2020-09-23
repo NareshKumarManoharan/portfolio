@@ -1,0 +1,356 @@
+/*horizontal line*/
+.line1{   
+    border-style:none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color: #696969;
+    width: 200px;
+}
+#title{
+    background-color: #07031a;  
+}
+/*background image*/
+.image{
+    width:1370px;
+    position: absolute;
+    left:0px;
+    bottom: 0px; 
+    
+}
+.top{
+    text-align:center; 
+    height: 600px;
+    position: relative;  
+}
+/*name and programing*/
+.ha1{
+    text-align: center;
+    padding:10% 20%;
+    font-size: 80px;  
+    color: #8d93ab;
+    font-family:'Special Elite',sans-serif;
+}
+.ha2{
+    text-align: center;
+    padding-right:10%;
+    font-size: 2rem;  
+    color: white;
+    font-family:'Special Elite',sans-serif;
+    font-weight:lighter; 
+}
+/*about*/
+#About{
+    background-color: #07031a; 
+    text-align: center;
+}
+.hello{
+    position: relative;
+}
+.b1{
+    display: inline-block;
+    font-size: 50px;  
+    color: #8d93ab;
+    font-family:'Special Elite',sans-serif;
+    padding-left:10px;
+}
+.b2{
+    display: inline-block;
+    font-size: 50px;  
+    color: #8d93ab;
+    font-family:'Special Elite',sans-serif;
+}
+.b3{
+    display: inline-block;
+    font-size: 50px;  
+    color: #8d93ab;
+    font-family:'Special Elite',sans-serif;
+}
+.p1{
+    display: inline-block;
+    line-height: 2;
+    font-size: 20px;  
+    color: wheat;
+    font-family:'Fira Sans',sans-serif;  /*content*/
+}
+/*services*/
+#services{
+    background-color: #07031a;
+    padding:3% 10%; 
+    text-align: center;
+}
+.logo{
+    display: inline-block;
+    padding-bottom:30px;
+}
+.heading1{
+    display: inline-block;
+    font-size: 30px;  
+    color: #8d93ab;
+    font-family:'Special Elite',sans-serif;
+}
+.heading2{
+    display: inline-block;
+    font-size: 20px;  
+    color: white;
+    font-family:'Special Elite',sans-serif;
+    font-weight:lighter;
+    position: relative;
+    top:-30px;
+    left:80px;
+}
+/*skills*/
+
+.s31{ /*logo background*/
+    transform:rotate(45deg);
+    background-color:#07031a;
+    border: 8px double rgb(231, 140, 4);
+    width: 100px;
+    height:100px;
+    position: relative;
+    left:30%;
+    bottom:10px
+    }
+    .s32{/*icon image*/
+    transform:rotate(-45deg);
+    opacity: 0.8;
+    display: inline-block;
+    width:80px;
+    height:80px;
+    }
+    .s33{ /*heading*/
+        font-size: 30px;  
+        color: #a2a7bb;
+        font-family:'Special Elite',sans-serif;
+    }
+    .s34{/*paragra*/
+        display: inline-block;
+        line-height:1.5;
+        font-size: 15px;  
+        color: wheat;
+        font-family:'Fira Sans',sans-serif;  /*content*/
+    }
+    .s42{/*icon image*/
+        transform:rotate(-45deg);
+        opacity: 2;
+        display: inline-block;
+        width:50px;
+        height:80px;
+        position: relative;
+        top:-5px;
+        left:-10px
+
+        }
+        .s52{/*icon image*/
+        transform:rotate(-45deg);
+        opacity: 0.7;
+        display: inline-block;
+        width:70px;
+        height:70px;
+        position: relative;
+        bottom: -5px;
+        left:3px;
+        top:10px
+        }
+        .s62{/*icon image*/
+            transform:rotate(-45deg);
+            opacity:0.8;
+            display: inline-block;
+            width:60px;
+            height:60px;
+            position: relative;;
+            top:10px;
+            left:0px;
+        }
+        .s72{/*icon image*/
+            transform:rotate(-45deg);
+            opacity: 0.8;
+        display: inline-block;
+        width:90px;
+        height:90px;
+        padding-bottom: 10px;
+        }
+        .s82{/*icon image*/
+            transform:rotate(-45deg);
+            
+            display: inline-block;
+            width:90px;
+            height:90px;
+            position:absolute;
+            left:1px;
+            top:-9px;
+            }
+/*---------------------------------------------------------------------*/
+#project{
+    background-color: #07031a;
+    padding:3% 10%; 
+    text-align: center;
+}
+.heading3{
+    display: inline-block;
+    font-size: 20px;  
+    color: white;
+    font-family:'Special Elite',sans-serif;
+    font-weight:lighter;
+    position: relative;
+    top:-30px;
+    left:150px;
+}
+.detail{
+    text-align: center;
+   position: relative;
+   top:50px;
+
+}
+.detail h4{
+    color: rgb(155, 153, 153);
+    font-family:'Special Elite',sans-serif;
+
+}
+.detail h2{
+    color: rgb(240, 167, 32);
+}
+.detail p{
+    display: inline-block;
+    line-height:1.5;
+    font-size: 15px;  
+    color: wheat;
+    font-family:'Fira Sans',sans-serif;  /*content*/
+}
+/*---------------------------------------------------------------------*/
+#education{
+    background-color: #07031a;
+    padding:3% 10%; 
+    text-align: center;
+}
+.timeline ul{
+    border-left: 5px solid rgb(94, 93, 91);
+    border-radius: 10px;
+    background-color: #08041b00;
+    margin:0 15%;
+    padding:5%;
+    padding-right:100px;
+    list-style: none;
+    text-align: left;
+    width: 80%;
+}
+.timeline h1{
+    font-size: 1.7rem;
+    color: #8d93ab;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 300;
+    margin-bottom: 1rem;  
+}
+.timeline p{
+    opacity: .5;
+    display: inline-block;
+    line-height: 2;
+    font-size: 20px;  
+    color: wheat;
+    font-family:'Fira Sans',sans-serif;
+}
+.timeline .date{
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    font-family:'Fira Sans',sans-serif;
+    position: relative;
+}
+.timeline .date::before,
+.timeline .date::after{
+    position: absolute;
+    display: block;
+    top: 40%;
+    transform: translateX(-50%);
+}
+.timeline .date::before{
+    content: attr(data-date);
+    left: -8rem;
+    top:3.5rem;
+    text-align: center;
+    min-width: 12rem;
+    font-size: 1.5rem;
+}
+.timeline .date::after{
+    content: "";
+    box-shadow: 0 0 0 4px #f5b402;
+    transform:rotate(-45deg);
+    left: -4rem;
+    height: 1rem;
+    width: 1rem;
+    background-color: #000000;
+}
+/*---------------------------------------------------------------------*/
+#contact{
+    background-color: #07031a;
+    padding:3% 10%; 
+    text-align: center;
+}
+.btnimg{
+   position: relative;
+   left:-9px;
+   bottom: 5px;
+   border: 5px solid black;
+   border-radius: 100%;
+
+}
+form{
+    width: 70%;
+    margin: 0 auto;
+    border-top: 5px solid rgba(255, 255, 255, 0.432) ;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.432) ;
+    border-radius: 30px;
+}
+form label{
+    font-size: 1.2rem;
+    color: #8d93ab;
+    font-family:'Montserrat',sans-serif;
+    justify-items: left;
+}
+input{
+    width: 100%;
+    background-color: rgb(99, 85, 77) ;
+    outline: none;
+    border-radius: 10px;
+    border:none;
+    padding: 0.3rem;
+}
+select,
+textarea{
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(99, 85, 77) ;
+    outline: none;
+}
+input[type='submit']{
+    width: initial;
+    background-color: #f8089c;
+    color: #eee;
+    padding: 1rem 2rem;
+    border-radius: .9rem;
+    cursor: pointer;
+    transition: backgroung-color 650ms;
+}
+input[type='submit']:hover{
+    color: #08080f;
+    background-color: #ffe838;
+}
+/*----------------------footer-------------------*/
+#footer{
+    background-color: #505053;
+    padding:2 10%; 
+    text-align: center;
+}
+.heading4{
+    display: inline-block;
+    padding:2% 0;
+    font-size: 30px;  
+    color: #f2f3f7;
+    font-family:'Special Elite',sans-serif;
+}
+.contact-me{
+    border-top:5px solid black;
+    border-radius:100%;
+}
